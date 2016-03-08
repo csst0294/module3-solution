@@ -1,43 +1,91 @@
-
-#box{
-
-	box-sizing:border-box;
-	position:relative;
-	background-color: gray;
-	border: 1px solid black;
-	padding-top:29px;
-	margin-bottom:2px;
-
-	
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #fff;
+  font-family: 'Arial', sans-serif;
 }
 
-#small-box-pink{
-	box-sizing:content-box;
-	border: 1px solid black;
-	background-color: pink;
-	position: absolute;
-	top: -20px;
-    right: 0px;
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
 }
 
-#small-box-orange{
-	box-sizing:content-box;
-	border: 1px solid black;
-	background-color: orange;
-	position: absolute;
-	top: -20px;
-    right: 0px;
 
 
+
+
+.navbar-brand {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-#small-box-red{
-	box-sizing:content-box;
-	border: 1px solid black;
-	background-color: red;
-	position: absolute;
-	top: -20px;
-    right: 0px;
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Arial', serif;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
 
+  margin-top: 0;
+  margin-bottom: 0;
 
 }
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+border: 1px solid #ccc;
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+   
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+#tile{
+    
+    background-color: gray;
+   padding-bottom: 25px;
+}
+
